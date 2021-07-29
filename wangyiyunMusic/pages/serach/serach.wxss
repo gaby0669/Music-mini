@@ -1,0 +1,80 @@
+/* pages/serach/serach.wxss */
+.searchContainer{
+  padding: 15rpx;
+}
+.serarch{
+  display: flex;
+  align-items: center;
+  border: 1rpx solid #f6f6f6;
+}
+.serarch text{
+  padding-right: 10rpx;
+}
+.serarch input{
+  width: 85%;
+}
+
+/* 搜索内容 */
+.searchContent{
+  padding: 20rpx 0;
+  color: red;
+  font-size: 30rpx;
+  border-bottom: 2rpx solid red;
+}
+.searchList{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.searchItem{
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #f6f6f6;
+}
+.content{
+  padding-left: 20rpx;
+}
+
+
+/* 搜索历史记录 */
+.history{
+  padding:20rpx;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.title{
+  padding-right: 20rpx;
+  padding: 20rpx 0;
+}
+.historyItem{
+  padding: 20rpx 0;
+}
+.ItemName{
+  padding: 0 30rpx;
+  background-color: #f6f6f6;
+  margin: 0 20rpx;
+  border-radius: 30rpx;
+}
+
+/* 热搜榜 */
+.hotContainer{
+  width: 100%;
+}
+.hotList{
+  display: flex;
+  flex-wrap: wrap;
+  
+
+}
+.hotItem{
+  display: flex;
+  width: 50%;
+  margin: 20rpx 0;
+}
+.iconImg{
+  width: 30rpx;
+  height: 30rpx;
+}
+.order{
+  padding-right: 5rpx;
+}

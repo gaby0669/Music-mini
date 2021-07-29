@@ -1,0 +1,126 @@
+@import "/static/iconfont/iconfont.wxss";
+.songDetailContainer{
+
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, .5);
+
+  align-items: center;
+}
+.circle{
+  width: 70rpx;
+  height: 70rpx;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 10rpx 0;
+  z-index: 100
+}
+/* 摇杆 */
+.needle{
+  position: relative;
+  left: 74rpx;
+  top: -43rpx;
+  width: 250rpx;
+  height: 300rpx;
+  transform-origin: 40rpx 0;
+  transform: rotate(-20deg);
+  z-index: 90;
+}
+.needleRotate {
+  transform: rotate(0deg);
+}
+
+/* 磁盘 */
+.discContainer{
+  position: relative;
+  top: -195rpx;
+  width: 598rpx;
+  height: 598rpx;
+}
+.discAnimation {
+  animation: disc 4s linear infinite;
+  animation-delay: .5s;
+}
+@keyframes disc {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.disc {
+  width: 598rpx;
+  height: 598rpx;
+}
+
+
+.musicImg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 370rpx;
+  height: 370rpx;
+  border-radius: 50%;
+
+}
+/* 进度条控制区域 */
+.progressControl {
+  position: absolute;
+  bottom: 200rpx;
+  width: 640rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  display: flex;
+}
+/* 总进度条 */
+.barControl{
+  position: relative;
+  width: 450rpx;
+  height: 4rpx;
+  background-color: rgba(0, 0, 0, .4);
+  margin: auto;
+}
+/* 实时进度条 */
+.audio-currentTime-Bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4rpx;
+  background-color: red;
+  z-index: 1;
+}
+/* 小圆球 */
+.audio-circle{
+  position: absolute;
+  right: -10rpx;
+  top: -10rpx;
+  width: 20rpx;
+  height: 20rpx;
+  border-radius: 50%;
+  background: #fff;
+}
+
+/* 底部控制播放区域 */
+.musicControl{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40rpx;
+  padding:40rpx 20rpx;
+  border-top: 2rpx solid white;
+  color: white;
+  align-items: center;
+ 
+}
+.musicControl text{
+  font-size: 50rpx;
+}
+.musicControl text:nth-of-type(3){
+  font-size: 60rpx;
+}

@@ -1,0 +1,62 @@
+/* songPackage/pages/recommendSong/recommendSong.wxss */
+@import "/static/iconfont/iconfont.wxss";
+page{
+  width: 100%;
+
+}
+.recommendSongContainer .header{
+  position: relative;
+  width: 100%;
+  height: 300rpx;
+}
+.recommendSongContainer .header image{
+  width: 100%;
+  height: 100%;
+}
+.data{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 40rpx;
+  color: #fff;
+}
+/* 列表区域 */
+.ListContainer{
+  position: relative;
+  top: -20rpx;
+  border: 1rpx solid #fff;
+  padding: 20rpx;
+  background-color: #fff;
+  border-radius: 30rpx;
+}
+.listHeader{
+  display: flex;
+  justify-content: space-between;
+  font-size: 30rpx;
+  margin-bottom: 20rpx;
+}
+/* 内容区 */
+.scrollItem{
+  width: 100%;
+  display: flex;
+  margin: 20rpx 0;
+  
+}
+.musicImg{
+  width: 15%;
+}
+.musicImg image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 10rpx;
+}
+.musicInfoContent{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 85%;
+}
+.musicInfoContent .musicInfo{
+ width: 85%;
+}

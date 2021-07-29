@@ -1,0 +1,145 @@
+.indexContainer{
+  width: 100%;
+}
+/* 轮播图 */
+.banners{
+  width: 100%;
+  height: 300rpx;
+}
+.banners image{
+  width: 100%;
+}
+/* 下方导航按钮 */
+.navContainer{
+  height: 150rpx;
+  display: flex;
+  white-space: nowrap;
+  padding: 10rpx;
+}
+.navItem{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  padding-right: 30rpx;
+}
+.navItem .iconfont {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100rpx;
+  background: rgb(240, 19, 19);
+  font-size: 50rpx;
+  color: #fff;
+}
+
+/* 推荐歌曲 */
+.recommendContainer{
+  width: 100%;
+}
+.recommend-top{
+  font-size: 40rpx;
+  font-weight: 300;
+  color: #666;
+  padding-left:10rpx ;
+
+}
+.recommend-title{
+  display: flex;
+  justify-content: space-between;
+  padding: 10rpx;
+  font-size: 30rpx;
+  align-items: center;
+}
+.recommend-title .moreRecommend{
+  padding: 14rpx;
+  border: 1rpx solid black;
+  border-radius: 30rpx;
+}
+.recommendContent{
+  display: flex;
+  height: 350rpx;
+  padding:10rpx;
+
+}
+.recommendList{
+  display: flex;
+  flex-direction: column;
+  width: 220rpx;
+  padding-right: 10rpx;
+}
+.recommendList image{
+  width: 220rpx;
+  height: 220rpx;
+}
+.recommendListName{
+  font-size: 26rpx;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2  
+
+}
+
+/* 排行榜 */
+
+.topList-top{
+  font-size: 40rpx;
+  font-weight: 300;
+  color: #666;
+  padding-left: 10rpx;
+}
+.topList-title{
+  display: flex;
+  padding:10rpx;
+  justify-content: space-between;
+  font-size: 30rpx;
+  align-items: center;
+}
+.moreList{
+  padding: 14rpx;
+  border: 1rpx solid black;
+  border-radius: 30rpx;
+}
+
+/* 排行榜 */
+.topListSwiper {
+  height: 1300rpx;
+}
+.swiperItem .title {
+  font-size: 40rpx;
+  line-height: 80rpx;
+
+}
+
+.musicItem {
+  /* 当一个元素设置为flex，其子元素会自动成为block元素*/
+  display: flex;
+  margin-bottom: 20rpx;
+  align-items: center;
+ 
+}
+
+.musicItem image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 6rpx;
+}
+
+.musicItem .count {
+  width: 100rpx;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+}
+
+.musicItem .musicName {
+  height: 100rpx;
+  line-height: 100rpx;
+  max-width: 400rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

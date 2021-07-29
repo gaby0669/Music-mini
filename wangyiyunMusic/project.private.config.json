@@ -1,0 +1,84 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/personal/personal",
+          "pathName": "pages/personal/personal",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/login/login",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "songPackage/pages/recommendSong/recommendSong",
+          "pathName": "songPackage/pages/recommendSong/recommendSong",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "songPackage/pages/recommendSong/recommendSong",
+          "pathName": "songPackage/pages/recommendSong/recommendSong",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "songPackage/pages/recommendSong/recommendSong",
+          "pathName": "songPackage/pages/recommendSong/recommendSong",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "songPackage/pages/recommendSong/recommendSong",
+          "pathName": "songPackage/pages/recommendSong/recommendSong",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "songPackage/pages/songDetail/songDetail",
+          "pathName": "songPackage/pages/songDetail/songDetail",
+          "query": "song=1851258433",
+          "scene": null
+        },
+        {
+          "name": "songPackage/pages/songDetail/songDetail",
+          "pathName": "songPackage/pages/songDetail/songDetail",
+          "query": "song=1492584510",
+          "scene": null
+        },
+        {
+          "name": "songPackage/pages/songDetail/songDetail",
+          "pathName": "songPackage/pages/songDetail/songDetail",
+          "query": "musicId=1851258433",
+          "scene": null
+        },
+        {
+          "name": "pages/video/video",
+          "pathName": "pages/video/video",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/serach/serach",
+          "pathName": "pages/serach/serach",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
