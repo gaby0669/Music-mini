@@ -18,7 +18,7 @@ Page({
       {iconClass:"iconfont icon-youxi",iconName:"游戏专区"}, 
     ],
     recommendList:[], //推荐歌曲数据
-    topList:[], //排行榜数据
+    topList:[], //排行榜数据列表
 
   },
 
