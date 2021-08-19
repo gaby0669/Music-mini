@@ -15,7 +15,7 @@ Page({
       {iconClass:"iconfont icon-zhuanji",iconName:"数字专辑"},
       {iconClass:"iconfont icon-zhuanzhu-copy",iconName:"专注冥想"},
       {iconClass:"iconfont icon-ktv",iconName:"歌房"},
-      {iconClass:"iconfont icon-youxi",iconName:"游戏专区"},
+      {iconClass:"iconfont icon-youxi",iconName:"游戏专区"}, 
     ],
     recommendList:[], //推荐歌曲数据
     topList:[], //排行榜数据
